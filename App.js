@@ -1,14 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
-
+import TopBar from './components/TopBar';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Tender</Text>
-      <StatusBar style="auto" />
+      <TopBar />
     </View>
   );
 }
@@ -16,6 +14,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 20,
+    marginTop: Constants.statusBarHeight,
   },
 });
