@@ -7,6 +7,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TopBar />
+      <View style={styles.swipes}>  
+
+      </View>
     </View>
   );
 }
@@ -16,4 +19,8 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: Constants.statusBarHeight,
   },
+  swipes:{
+    flex: 1,
+    padding: 10,
+  }
 });
