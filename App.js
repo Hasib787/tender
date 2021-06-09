@@ -22,5 +22,14 @@ const styles = StyleSheet.create({
   swipes:{
     flex: 1,
     padding: 10,
+    paddingTop: 8,
+    shadowColor: '#000',
+            shadowOffset: {
+                width: 0,
+                height: 10,
+            },
+            shadowOpacity: 0.12,
+            shadowRadius: 5.46,
+            elevation: 9,
   }
 });
